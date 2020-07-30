@@ -1,0 +1,7 @@
+$ xdg-open Lab.pdf      #open with default application 
+$ script filename.script      #started saving works to filename.script 
+$ exit              #script is done file is saved 
+$ touch lab1_1.txt lab1_2.doc lab1_3.odt   #create files 
+$ mkdir -p assignment1/lab1      #create directories one inside another 
+$ cd  nextDir     $ cd ..     $cd       #navigate forward backward and home commond 
+$ cat iit.txt  >>lab1_1.txt >>lab1_2.doc >>lab1_3.odt     #copying content
