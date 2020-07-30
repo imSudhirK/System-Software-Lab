@@ -1,1 +1,12 @@
+Encryption 
+$ gpg -c filename    #output is filename.gpg
+$ gpg-zip -c -o newDirName dirName   #output is newDirName
 
+Decryption 
+$ gpg filename.gpg     #for file filename.gpg  
+$ gpg-zip -d newDirName  #output is dirName
+
+Rename 
+$ mv filename newName   #renaming single file 
+$ rename 's/^extra/Pre_/' *.mp4   #removing extra and adding Pre_ prefix to all files with .mp4 extention
+$ rename 's/.webm/.mp4/' *.webm   #removing .webm and appending .mp4 suffix to all files with .webm extention
