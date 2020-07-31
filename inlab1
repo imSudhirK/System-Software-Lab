@@ -27,3 +27,11 @@ $ whereis     #source of commands
 $ which  cpp python java    #sources 
 $ ping -c 7  google.com    #data received and sent speed 
 $ wget   url     # to downlaod from web link 
+$ passwd
+$ whoami
+$ date
+$ cal
+$ id
+
+
+
