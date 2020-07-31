@@ -18,4 +18,12 @@ $ grep -w assignment1 lab1_1.txt   #for specific word
 $ grep -x "exact matching line" lab1_1.txt   #finding exact match of line 
 $ grep -r  -w   wordToSearch *          #recursive search to all directories and files 
 $ grep -c word  filename     #counts the number of occurance 
-
+$ df           # space 
+$ sleep 15s     #s,m,h,d terminal timer for wait 
+$ uptime         #time since system is on 
+$ w      #logged in users and their working time 
+$ finger #logged in users details 
+$ whereis     #source of commands 
+$ which  cpp python java    #sources 
+$ ping -c 7  google.com    #data received and sent speed 
+$ wget   url     # to downlaod from web link 
