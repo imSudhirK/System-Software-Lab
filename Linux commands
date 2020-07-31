@@ -12,3 +12,7 @@ $ rename 's/^extra/Pre_/' *.mp4   #removing extra and adding Pre_ prefix to all 
 $ rename 's/.webm/.mp4/' *.webm   #removing .webm and appending .mp4 suffix to all files with .webm extention
 
 Zipping 
+$ tar -cvf newname.tar directory      #zip -r
+$ tar -xvf file.tar            #unzip 
+$ tree directory   
+
