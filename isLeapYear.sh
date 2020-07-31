@@ -16,3 +16,5 @@ elif [[ "$v4" = 0 ]] ;  then
 else  
      echo "Not a leap year" 
 fi
+
+#year should be divisible with (4 and not 100) or (100 and 400)
