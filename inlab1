@@ -17,3 +17,5 @@ $ grep assignment lab1_1.txt       #searching for string match in given file
 $ grep -w assignment1 lab1_1.txt   #for specific word 
 $ grep -x "exact matching line" lab1_1.txt   #finding exact match of line 
 $ grep -r  -w   wordToSearch *          #recursive search to all directories and files 
+$ grep -c word  filename     #counts the number of occurance 
+
