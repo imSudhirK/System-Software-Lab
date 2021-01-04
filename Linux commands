@@ -6,6 +6,11 @@ Decryption
 $ gpg filename.gpg     #for file filename.gpg  
 $ gpg-zip -d newDirName  #output is dirName
 
+CCrypt 
+sudo apt-get install ccrypt 
+ccrypt filename 
+ccrypt -d filename 
+
 Rename 
 $ mv filename newName   #renaming single file 
 $ rename 's/^extra/Pre_/' *.mp4   #removing extra and adding Pre_ prefix to all files with .mp4 extention
