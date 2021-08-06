@@ -1,0 +1,12 @@
+1
+1
+2
+6
+24
+120
+720
+5040
+.
+.
+
+it deviates factorial of 21 onwards it may be due to very big number and overflow of number within the storage bit
